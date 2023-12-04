@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #D9D9E0;
+    margin-top: 150px;
+}
+
+.converter {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 300px;
+    padding: 8px 0;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 10px;
+    width: 345px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        color: #FF5733;
+        text-shadow: 0 0 10px #FF5733, 0 0 20px #FF5733, 0 0 30px #FF5733;
+    }
+    20% {
+        color: #3498db;
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+    }
+    50% {
+        color: #ff00ff;
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+    }
+    80% {
+        color: #00ff00;
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+    }
+    100% {
+        color: #FF5733;
+        text-shadow: 0 0 10px #FF5733, 0 0 20px #FF5733, 0 0 30px #FF5733;
+    }
+}
+
+.glowing-box {
+    animation: glowing 2s infinite; /* Teks akan bercahaya selama 2 detik dan diulang terus-menerus */
+}

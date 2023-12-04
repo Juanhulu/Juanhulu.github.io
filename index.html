@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Bilangan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Konversi Bilangan</h1>
+        <label for="decimal">Desimal:</label>
+        <input type="text" id="decimal" oninput="convertFromDecimal()">
+        <br>
+        <label for="binary">Biner:</label>
+        <input type="text" id="binary" oninput="convertFromBinary()">
+        <br>
+        <label for="hexadecimal">Heksadesimal:</label>
+        <input type="text" id="hexadecimal" oninput="convertFromHexadecimal()">
+        <br>
+        <label for="octal">Oktal:</label>
+        <input type="text" id="octal" oninput="convertFromOctal()">
+    </div>
+    <footer><p>&copy; 2023 Konversi Bilangan | Juan Hulu</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
