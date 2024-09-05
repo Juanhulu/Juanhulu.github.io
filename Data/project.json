@@ -1,0 +1,10 @@
+{
+    "data":[
+        {
+            "name":"Find Facebook ID",
+            "date": "23-05-2024",
+            "url": "https://github.com/Juanhulu/FIND-ID",
+            "command":" Perintah Termux :\n    $ apt update -y && apt upgrade -y\n    $ pkg install git\n    $ pkg install php\n    $ git clone https://github.com/Juanhulu/FIND-ID\n    $ cd FIND-ID\n    $ php Run.php\n Update Script :\n    $ rm -rf $HOME/FIND-ID\n    $ git clone https://github.com/Juanhulu/FIND-ID\n    $ cd FIND-ID\n    $ php Run.php"
+        }
+    ]
+}
