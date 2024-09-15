@@ -1,0 +1,29 @@
+
+@media (max-width: 768px) {
+    .black-image-container {
+        text-align: center;
+        margin-left: 0;
+        display: block;
+        width: 90%;
+    }
+    .tentang-saya p {
+        font-size: 13.9px;
+    }
+    .about-info-container {
+        max-width: 500px;
+        margin-top: -450px;
+    }
+    .paragraph1 {
+        font-size: 15px;
+    }
+    .education-content {
+        width: 35%;
+        margin-top: 60px;
+    }
+    .my-project-container {
+        display: grid;
+    }
+    .chat-saya {
+        max-width: 400px;
+    }
+}
