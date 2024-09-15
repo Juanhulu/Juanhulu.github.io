@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url(/_next/my-code/font/ComicNeue.ttf) format('woff2');
+    src: url(/asset/my-code/font/ComicNeue.ttf) format('woff2');
 }
 body {
     margin: 0;
